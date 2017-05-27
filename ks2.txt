@@ -4198,7 +4198,7 @@ F6DD 鍼
 /F6DE 蟄
 /F6DF 秤
 F6E0 稱
-F6E1 快
+/F6E1 快
 F6E2 他
 F6E3 咤
 F6E4 唾
