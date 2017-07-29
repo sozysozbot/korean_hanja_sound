@@ -40,7 +40,7 @@ function xenkwanki_segseg(hanzis)
 			} else if(info.length == 1) {
 				res += '<input type="radio" name="' + id + '" value="' + info[0] + '" checked="checked">' + info[0] + '<br>';
 			} else {
-				res += '(´・ω・`)<br>'
+				res += '<span style="white-space:nowrap">(´・ω・`)</span><br>'
 			}
 			res += '</div>';
 		res += '</div>'
