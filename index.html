@@ -22,6 +22,9 @@
 <pre>
 漢字を韓国漢字音に変換します。字音は手動で選んでください。
 </pre>
+<p>
+<b style="font-size: 120%; color:red;">異体字の諸々の処理を行っていないので、「樂(U+6A02)」「樂(U+F914)」「樂(U+F95C)」「樂(U+F9BF)」でそれぞれ1音ずつ出てきたりします。これはバグなのでご注意ください。</b>
+</p>
 <div>
 <input type="text" id="dat" value="漢字變換器" style="font-size: 150%"/>
 <input type="button" value="変換" style="font-size: 150%" onclick="main(document.getElementById('dat').value)">
